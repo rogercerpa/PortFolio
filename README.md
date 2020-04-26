@@ -1,9 +1,7 @@
 ## PortFolio
 Discover Roger Cerpa Creativity through his Code :)
 
-<p align="center">
-  <img alt="Roger Portfolio" src="">
-</p>
+![Homepage](http://url/to/img.png)
 
 ## Table of Contents
     * [Installation]

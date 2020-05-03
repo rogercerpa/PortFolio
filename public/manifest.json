@@ -1,12 +1,7 @@
 {
-	"short_name": "PortFolio",
-	"name": "PortFolio",
+	"short_name": "RC-PortFolio",
+	"name": "Roger C PortFolio",
 	"icons": [
-		{
-			"src": "/Assets/icons/favicon.ico",
-			"sizes": "64x64 32x32 24x24 16x16",
-			"type": "image/x-icon"
-		},
 		{
 			"src": "/Assets/icons/favicon-16x16.png",
 			"type": "image/png",

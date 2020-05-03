@@ -1,24 +1,24 @@
 {
-	"short_name": "RC-PortFolio",
+	"short_name": "RC PortFolio",
 	"name": "Roger C PortFolio",
 	"icons": [
 		{
-			"src": "/Assets/icons/favicon-16x16.png",
+			"src": "../Assets/icons/favicon-16x16.png",
 			"type": "image/png",
 			"sizes": "16x16"
 		},
 		{
-			"src": "/Assets/icons/favicon-32x32.png",
+			"src": "../Assets/icons/favicon-32x32.png",
 			"type": "image/png",
 			"sizes": "32x32"
 		},
 		{
-			"src": "/Assets/icons/android-chrome-192x192.png",
+			"src": "../Assets/icons/android-chrome-192x192.png",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "/Assets/icons/android-chrome-512x512.png",
+			"src": "../Assets/icons/android-chrome-512x512.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		}

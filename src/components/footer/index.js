@@ -11,7 +11,7 @@ function StickyFooter() {
 		<div className="footer">
 			<Grid container spacing={0}>
 				<Grid item xs={12} sm={4}>
-					<div>about me</div>
+					<div container>about me</div>
 				</Grid>
 				<Grid item xs={12} sm={4}>
 					<div container>
@@ -22,7 +22,7 @@ function StickyFooter() {
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={4}>
-					<div>contact</div>
+					<div container>contact</div>
 				</Grid>
 			</Grid>
 		</div>

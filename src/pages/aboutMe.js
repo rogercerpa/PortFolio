@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 
-const AboutMe = (props) => {
+const AboutMe = () => {
 	return (
 		<div>
 			<Jumbotron>

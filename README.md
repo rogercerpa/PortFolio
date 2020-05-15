@@ -1,13 +1,17 @@
 ## PortFolio
 Discover Roger Cerpa Creativity through his Code.
 
+
 ## Homepage DEMO
 ![Homepage](https://github.com/rogercerpa/portfolio/blob/master/public/Assets/images/homepage-demo.PNG)
 
 ## Projects page DEMO
 ![Project-Page](https://github.com/rogercerpa/portfolio/blob/master/public/Assets/images/project-page.PNG)
 
- https://rogercerpa.github.io/portFolio/
+
+
+## Visit my Portfolio to learn more about me
+ https://rogercerpa.github.io/portfolio/
 
 
 ## Wireframe with Adobe XD

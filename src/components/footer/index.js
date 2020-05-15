@@ -11,18 +11,30 @@ function StickyFooter() {
 		<div className="footer">
 			<Grid container spacing={0}>
 				<Grid item xs={12} sm={4}>
-					<div container>about me</div>
-				</Grid>
-				<Grid item xs={12} sm={4}>
 					<div container>
-						<GitHubIcon />
-						<LinkedInIcon />
-						<InstagramIcon />
-						<ResumeIcon />
+						<a href="/aboutme">about me</a>
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={4}>
-					<div container>contact</div>
+					<div container>
+						<a href="https://github.com/rogercerpa" target="black">
+							<GitHubIcon />
+						</a>
+						<a href="https://www.linkedin.com/in/roger-cerpa/" target="black">
+							<LinkedInIcon />
+						</a>
+						<a href="https://www.instagram.com/roger.cerpa/" target="black">
+							<InstagramIcon />
+						</a>
+						{/* <a href="" target="black">
+							<ResumeIcon />
+						</a> */}
+					</div>
+				</Grid>
+				<Grid item xs={12} sm={4}>
+					<div container>
+						<a href="/contact">contact</a>
+					</div>
 				</Grid>
 			</Grid>
 		</div>

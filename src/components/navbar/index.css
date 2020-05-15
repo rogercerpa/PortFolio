@@ -3,8 +3,13 @@
 	height: 60px;
 	background-color: transparent;
 	text-align: center;
-	color: #7d848a;
+	color: #7d848a !important;
 }
 body {
 	margin-top: 40px;
+}
+a {
+	color: inherit;
+	padding: 5px;
+	text-decoration: inherit;
 }

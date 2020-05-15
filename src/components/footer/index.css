@@ -14,3 +14,7 @@ body {
 	text-align: center;
 	color: #7d848a;
 }
+a {
+	color: inherit;
+	text-decoration: inherit;
+}

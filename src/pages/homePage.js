@@ -9,17 +9,17 @@ import {
 
 const items = [
 	{
-		src     : '../../public/Assets/images/liveSearch-demo-image.png',
+		src     : './Assets/images/liveSearch-demo-image.png',
 		altText : 'Slide 1',
 		caption : 'Slide 1'
 	},
 	{
-		src     : '../public/Assets/images/liveSearch-demo-image.png',
+		src     : './Assets/images/liveSearch-demo-image.png',
 		altText : 'Slide 2',
 		caption : 'Slide 2'
 	},
 	{
-		src     : '../public/Assets/images/liveSearch-demo-image.png',
+		src     : './Assets/images/liveSearch-demo-image.png',
 		altText : 'Slide 3',
 		caption : 'Slide 3'
 	}

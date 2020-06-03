@@ -1,9 +1,13 @@
 import React from 'react';
+import './Assets/style/contact.css';
 import { Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 
 const ContactMe = (props) => {
 	return (
 		<Container>
+			<div>
+				<h1 className="contactTitle">Reach out, let's talk! </h1>
+			</div>
 			<Form>
 				<FormGroup>
 					<Label for="fullName">Name</Label>

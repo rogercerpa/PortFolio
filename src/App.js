@@ -6,7 +6,7 @@ import AboutMe from './pages/aboutMe';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
 import HomePage from './pages/homePage';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 
 function App() {

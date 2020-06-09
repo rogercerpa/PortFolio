@@ -1,5 +1,5 @@
 import React from 'react';
-import './Assets/style/contact.css';
+import './Assets/style/style.css';
 import { Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 
 const ContactMe = (props) => {

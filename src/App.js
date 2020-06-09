@@ -14,9 +14,9 @@ function App() {
 		<div>
 			<NavBar />
 			<Router>
-				<Container className="themed-container">
+				<Container>
 					<Row>
-						<Col sm="12" md={{ size: 6, offset: 3 }}>
+						<Col>
 							<Switch>
 								<Route exact path={[ '/', '/portfolio' ]}>
 									<HomePage />

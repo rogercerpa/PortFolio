@@ -6,7 +6,7 @@ import AboutMe from './pages/aboutMe';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
 import HomePage from './pages/homePage';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 
 function App() {
@@ -14,28 +14,19 @@ function App() {
 		<div>
 			<NavBar />
 
-			<Router>
-				<Container>
-					<Row>
-						<Col>
-							<Switch>
-								<Route exact path={[ '/', '/portfolio' ]}>
-									<HomePage />
-								</Route>
-								<Route exact path={[ '/aboutme' ]}>
-									<AboutMe />
-								</Route>
-								<Route exact path={[ '/projects' ]}>
-									<Projects />
-								</Route>
-								<Route exact path={[ '/contact' ]}>
-									<Contact />
-								</Route>
-							</Switch>
-						</Col>
-					</Row>
-				</Container>
-			</Router>
+			<Container>
+				<Row>
+					<Col>
+						<Route exact path={[ '/', '/portfolio' ]} component={HomePage} />
+
+						<Route path="/aboutme" component={AboutMe} />
+
+						<Route path="/projects" component={Projects} />
+
+						<Route path="/contact" component={Contact} />
+					</Col>
+				</Row>
+			</Container>
 
 			<Footer />
 		</div>

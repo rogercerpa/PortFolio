@@ -1,0 +1,15 @@
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: transparent;
+	text-align: center;
+	color: #7d848a !important;
+}
+body {
+	margin-top: 40px !important;
+}
+a {
+	color: inherit;
+	padding: 5px;
+	text-decoration: inherit;
+}

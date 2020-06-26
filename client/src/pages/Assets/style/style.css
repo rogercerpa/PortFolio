@@ -1,0 +1,21 @@
+.projectList {
+	color: #7d848a !important;
+	float: left;
+}
+.projectTitle {
+	color: #7d848a !important;
+}
+.welcomeMessage {
+	color: #7d848a !important;
+	padding-bottom: 20px;
+}
+.philosophyMessage {
+	color: #7d848a !important;
+}
+.contactTitle {
+	color: #7d848a !important;
+}
+
+.row {
+	padding: 20px;
+}

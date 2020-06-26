@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 
 // const mongoose = require("mongoose");
 // const routes = require("./routes");
@@ -17,6 +18,10 @@ if (process.env.NODE_ENV === 'production') {
 
 // Connect to the Mongo DB
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
+
+app.get('*', function(req, res) {
+	res.sendFile(path.join(__dirname, './build/index.html'));
+});
 
 // Start the API server
 app.listen(PORT, function() {

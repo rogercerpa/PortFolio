@@ -3,6 +3,7 @@
 	"name": "portfolio",
 	"version": "0.1.0",
 	"private": true,
+	"proxy": "http://localhost:3001/",
 	"dependencies": {
 		"@material-ui/core": "^4.9.12",
 		"@material-ui/icons": "^4.9.1",
@@ -28,11 +29,7 @@
 		"extends": "react-app"
 	},
 	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
+		"production": [ ">0.2%", "not dead", "not op_mini all" ],
 		"development": [
 			"last 1 chrome version",
 			"last 1 firefox version",

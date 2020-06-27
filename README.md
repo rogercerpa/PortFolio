@@ -10,8 +10,8 @@ Discover Roger Cerpa Creativity through his Code.
 
 
 
-## Visit my Portfolio to learn more about me
- https://rogercerpa.github.io/portfolio/
+## Visit my Portfolio to learn more about my work
+ https://rogercerpa-portfolio.herokuapp.com/
 
 
 ## Wireframe with Adobe XD

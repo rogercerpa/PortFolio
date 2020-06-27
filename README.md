@@ -3,10 +3,10 @@ Discover Roger Cerpa Creativity through his Code.
 
 
 ## Homepage DEMO
-![Homepage](https://github.com/rogercerpa/portfolio/blob/master/public/Assets/images/homepage-demo.PNG)
+![Homepage](https://github.com/rogercerpa/portfolio/blob/master/client/src/pages/Assets/images/homepage.PNG)
 
 ## Projects page DEMO
-![Project-Page](https://github.com/rogercerpa/portfolio/blob/master/public/Assets/images/project-page.PNG)
+![Project-Page](https://github.com/rogercerpa/portfolio/blob/master/client/src/pages/Assets/images/projectpage.PNG)
 
 
 
